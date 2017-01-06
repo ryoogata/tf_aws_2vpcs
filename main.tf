@@ -18,7 +18,7 @@ resource "aws_subnet" "subnet1a_DMZ" {
   map_public_ip_on_launch = true
 
   tags {
-    Name = "${var.tag}"
+    Name = "public_subnet_1a"
   }
 }
 
@@ -30,7 +30,7 @@ resource "aws_subnet" "subnet1c_DMZ" {
   map_public_ip_on_launch = true
 
   tags {
-    Name = "${var.tag}"
+    Name = "public_subnet_1c"
   }
 }
 
